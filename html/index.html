@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Leitura Linear</title>
-    <h1>Ler dois arrays aleatórios e achar números que somados chegam próximo ao valor digitado</h1>
-    <hr>
 </head>
+
 <body>
-    
+    <h1 id="h1-title">Leitor linear</h1>
+    <div id="container">
+        <div id="rowA1">
+            <p>1</p>
+            <p>3</p>
+            <p>6</p>
+            <p>7</p>
+            <p>9</p>
+        </div>
+        <div id="rowA2">
+            <p>0</p>
+            <p>2</p>
+            <p>5</p>
+            <p>6</p>
+            <p>9</p>
+        </div>
+    </div>
+    <footer>
+        <h3>Qual número você quer achar?</h3>
+        <div id="alinhaInput">
+            <input type="text" name="target" id="targetInput" placeholder="Ex.: 7" />
+            <small>Você vai encontrar valores cuja soma vai ser +1 ou = ou -1</small>
+        </div>
+            <button type="submit">Achar!</button>
+    </footer>
 </body>
+
 </html>
